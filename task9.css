@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f2f3fa;
+    color: #292944;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    background: #ffffff;
+    padding: 25px 6%;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    color: #5145b5;
+    margin-bottom: 5px;
+}
+
+.head p {
+    color: #777;
+}
+
+.head label {
+    display: block;
+    max-width: 250px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px 3px;
+    border: 1px solid #d5d5e5;
+    border-radius: 5px;
+}
+
+input, select {
+    background: white;
+}
+
+button, .file {
+    background: #473abe;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover, .file:hover {
+    background: #180699;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin: 25px auto;
+    width: 90%;
+}
+
+.card, .box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0ed;
+}
+
+.card {
+    flex: 1;
+}
+
+.card p {
+    color: #777;
+}
+
+.card h2 {
+    color: #5145b5;
+}
+
+.box {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#form input, #form select {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 6px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #f2f1fc;
+}
+
+.delete, .red {
+    background: #d74755;
+}
+
+.file input {
+    display: none;
+}
+
+#warning {
+    color: #d74755;
+}
+
+#message, #result {
+    color: #5145b5;
+}
